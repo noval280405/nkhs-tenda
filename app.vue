@@ -1,6 +1,9 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <LayoutNavbar />
+    <main id="main"><NuxtPage /></main>
+    <LayoutFooter />
+    <UiWhatsAppFloating />
   </div>
 </template>
