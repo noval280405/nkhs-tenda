@@ -6,14 +6,10 @@ export const tents: TentModel[] = [
     name: 'Classic Cream Wedding',
     category: 'Classic',
     description:
-      'Pilihan tenda classic dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Plafon kain ivory berlipit dengan drapery champagne dan chandelier hangat. Komposisi klasik yang elegan untuk resepsi pernikahan Indonesia.',
     pricePerSquareMeter: 60000,
-    image: '/images/tents/model-1.jpg',
-    gallery: [
-      '/images/tents/model-1.jpg',
-      '/images/tents/model-2.jpg',
-      '/images/tents/model-3.jpg',
-    ],
+    image: '/images/tents/classic-cream-wedding.jpg',
+    gallery: ['/images/tents/classic-cream-wedding.jpg'],
     availableColors: ['Cream', 'Champagne', 'White'],
     features: [
       'Plafon dekor',
@@ -28,14 +24,10 @@ export const tents: TentModel[] = [
     name: 'Modern Sage Wedding',
     category: 'Modern',
     description:
-      'Pilihan tenda modern dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Kain serut ivory berpadu drapery sage green dan pencahayaan hangat. Nuansa modern yang lembut untuk acara pernikahan di rumah maupun taman.',
     pricePerSquareMeter: 75000,
-    image: '/images/tents/model-2.jpg',
-    gallery: [
-      '/images/tents/model-2.jpg',
-      '/images/tents/model-3.jpg',
-      '/images/tents/model-4.jpg',
-    ],
+    image: '/images/tents/modern-sage-wedding.jpg',
+    gallery: ['/images/tents/modern-sage-wedding.jpg'],
     availableColors: ['Sage Green', 'White', 'Cream'],
     features: [
       'Plafon dekor',
@@ -50,14 +42,10 @@ export const tents: TentModel[] = [
     name: 'Rustic Wedding Tent',
     category: 'Rustic',
     description:
-      'Pilihan tenda rustic dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Tenda berlapis kain cream dengan lampu rotan dan sentuhan kayu. Suasana rustic yang hangat, dekat dengan alam, dan tetap tertata elegan.',
     pricePerSquareMeter: 70000,
-    image: '/images/tents/model-3.jpg',
-    gallery: [
-      '/images/tents/model-3.jpg',
-      '/images/tents/model-4.jpg',
-      '/images/tents/model-5.jpg',
-    ],
+    image: '/images/tents/rustic-wedding-tent.jpg',
+    gallery: ['/images/tents/rustic-wedding-tent.jpg'],
     availableColors: ['Cream', 'Sage Green'],
     features: [
       'Plafon dekor',
@@ -72,14 +60,10 @@ export const tents: TentModel[] = [
     name: 'Royal Premium Wedding',
     category: 'Premium',
     description:
-      'Pilihan tenda premium dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Lapisan kain champagne, chandelier kristal, dan detail emas membentuk suasana resepsi yang megah. Pilihan untuk perayaan dengan karakter royal.',
     pricePerSquareMeter: 95000,
-    image: '/images/tents/model-4.jpg',
-    gallery: [
-      '/images/tents/model-4.jpg',
-      '/images/tents/model-5.jpg',
-      '/images/tents/model-6.jpg',
-    ],
+    image: '/images/tents/royal-premium-wedding.jpg',
+    gallery: ['/images/tents/royal-premium-wedding.jpg'],
     availableColors: ['Champagne', 'White', 'Dusty Pink'],
     features: [
       'Plafon dekor',
@@ -94,14 +78,10 @@ export const tents: TentModel[] = [
     name: 'Traditional Wedding',
     category: 'Traditional',
     description:
-      'Pilihan tenda traditional dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Drapery cream dan maroon, lampu hangat, serta nuansa emas menghadirkan latar yang selaras dengan pernikahan adat Indonesia.',
     pricePerSquareMeter: 85000,
-    image: '/images/tents/model-5.jpg',
-    gallery: [
-      '/images/tents/model-5.jpg',
-      '/images/tents/model-6.jpg',
-      '/images/tents/model-1.jpg',
-    ],
+    image: '/images/tents/traditional-wedding.jpg',
+    gallery: ['/images/tents/traditional-wedding.jpg'],
     availableColors: ['Maroon', 'Cream', 'Champagne'],
     features: [
       'Plafon dekor',
@@ -116,14 +96,10 @@ export const tents: TentModel[] = [
     name: 'Minimalist White Tent',
     category: 'Minimalis',
     description:
-      'Pilihan tenda minimalis dengan detail kain yang lembut, komposisi warna harmonis, dan suasana hangat untuk hari istimewa Anda.',
+      'Plafon serut dan drapery serba putih dengan pencahayaan lembut. Komposisi bersih yang terasa lapang untuk perayaan minimalis.',
     pricePerSquareMeter: 55000,
-    image: '/images/tents/model-6.jpg',
-    gallery: [
-      '/images/tents/model-6.jpg',
-      '/images/tents/model-1.jpg',
-      '/images/tents/model-2.jpg',
-    ],
+    image: '/images/tents/minimalist-white-tent.jpg',
+    gallery: ['/images/tents/minimalist-white-tent.jpg'],
     availableColors: ['White', 'Cream'],
     features: [
       'Plafon dekor',

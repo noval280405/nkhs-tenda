@@ -1,15 +1,15 @@
 <script setup lang="ts">
-defineProps<{ images: string[]; title: string }>()
+defineProps<{ images: string[]; title: string; portrait?: boolean }>()
 const active = ref(0)
 </script>
 <template>
   <div>
     <img
-      class="detail-photo"
+      :class="['detail-photo', { 'detail-portrait': portrait }]"
       :src="images[active]"
       :alt="`${title} — foto ilustrasi ${active + 1}`"
     />
-    <div class="gallery-thumbs">
+    <div v-if="images.length > 1" class="gallery-thumbs">
       <button
         v-for="(src, i) in images"
         :key="i"
@@ -21,7 +21,7 @@ const active = ref(0)
       </button>
     </div>
     <p class="image-note">
-      Foto ilustrasi referensi, bukan dokumentasi project NKHS TENDA.
+      Ilustrasi konsep dibuat dengan AI, bukan dokumentasi project NKHS TENDA.
     </p>
   </div>
 </template>

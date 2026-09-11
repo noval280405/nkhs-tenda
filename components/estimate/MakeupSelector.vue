@@ -6,6 +6,7 @@ const options = makeups.map((m) => ({
   id: String(m.id),
   name: m.name,
   price: m.price,
+  image: m.image,
 }))
 </script>
 <template>

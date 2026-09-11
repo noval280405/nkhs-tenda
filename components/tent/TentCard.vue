@@ -4,14 +4,14 @@ import { colors } from '~/data/site'
 defineProps<{ tent: TentModel }>()
 </script>
 <template>
-  <article class="catalog-card">
+  <article class="catalog-card tent-card">
     <NuxtLink :to="`/tenda/${tent.slug}`" class="card-image">
       <img :src="tent.image" :alt="`Ilustrasi ${tent.name}`" loading="lazy" />
       <span class="image-badge">{{ tent.category }}</span>
       <span class="image-arrow">↗</span>
     </NuxtLink>
     <div class="card-body">
-      <p class="eyebrow">{{ tent.category }} · ELEGANT</p>
+      <p class="eyebrow">{{ tent.category }} · INDONESIAN WEDDING</p>
       <h3>
         <NuxtLink :to="`/tenda/${tent.slug}`">{{ tent.name }}</NuxtLink>
       </h3>

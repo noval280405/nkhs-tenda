@@ -8,19 +8,20 @@ import { tents } from '~/data/tents'
         <UiSectionTitle
           eyebrow="THE TENT COLLECTION"
           title="Ruang indah untuk cerita Anda."
-          description="Temukan model tenda yang selaras dengan momen dan impian Anda."
+          description="Dari drapery sage yang lembut hingga champagne yang megah. Temukan suasana resepsi Anda."
         />
         <NuxtLink class="text-link" to="/tenda">Lihat Semua Model ↗</NuxtLink>
       </div>
       <div class="grid-cards">
         <TentCard
-          v-for="tent in tents.slice(0, 3)"
+          v-for="tent in [tents[1]!, tents[0]!, tents[3]!]"
           :key="tent.id"
           :tent="tent"
         />
       </div>
       <p class="image-note">
-        Koleksi demo · Foto merupakan ilustrasi referensi.
+        Ilustrasi konsep AI · Pelaminan dan perlengkapan pada gambar dipilih dan
+        dihitung terpisah.
       </p>
     </div>
   </section>

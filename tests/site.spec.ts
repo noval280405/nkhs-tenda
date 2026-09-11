@@ -239,3 +239,62 @@ for (const width of [360, 390, 768, 1024, 1280, 1440])
       })
     }
   })
+
+test('Gambar rias sesuai seluruh filter, detail, dan pilihan estimasi', async ({
+  page,
+}) => {
+  await page.goto('/tata-rias')
+  expect(new Set(makeups.map((m) => m.image)).size).toBe(makeups.length)
+  for (const makeup of makeups) {
+    await page
+      .getByRole('button', { name: makeup.category, exact: true })
+      .click()
+    const card = page.locator('.makeup-card')
+    await expect(card).toHaveCount(1)
+    await expect(card.locator('h3')).toHaveText(makeup.name)
+    await expect(card.locator('img')).toHaveAttribute('src', makeup.image)
+    await expect(card.locator('.makeup-summary')).toHaveText(makeup.summary)
+    await expect(card.locator('img')).toBeVisible()
+    await expect
+      .poll(() =>
+        card
+          .locator('img')
+          .evaluate((image: HTMLImageElement) => image.naturalWidth),
+      )
+      .toBeGreaterThan(0)
+  }
+  await page.goto('/tata-rias?category=Traditional%20Jawa')
+  await expect(page.locator('.makeup-card h3')).toHaveText('Paes Jawa')
+  await page.getByRole('link', { name: /^Lihat Detail/ }).click()
+  await expect(page.locator('.detail-portrait')).toHaveAttribute(
+    'src',
+    '/images/makeup/paes-jawa.jpg',
+  )
+  await expect(page.locator('.makeup-highlights')).toContainText(
+    'Rias paes Jawa',
+  )
+  await page.getByRole('link', { name: /^Pilih Tata Rias/ }).click()
+  const selected = page.locator('.makeup-options .option-card.chosen')
+  await expect(selected).toContainText('Paes Jawa')
+  await expect(selected.locator('img')).toHaveAttribute(
+    'src',
+    '/images/makeup/paes-jawa.jpg',
+  )
+  for (const width of [390, 1440]) {
+    await page.setViewportSize({ width, height: 950 })
+    for (const [path, name] of [
+      ['/', 'home'],
+      ['/tenda', 'tenda'],
+      ['/tata-rias', 'rias'],
+    ]) {
+      await page.goto(path!)
+      await page.screenshot({
+        path: `tests/screenshots/premium-${name}-${width}.png`,
+        fullPage: false,
+      })
+    }
+    await page
+      .locator('.grid-cards')
+      .screenshot({ path: `tests/screenshots/premium-rias-grid-${width}.png` })
+  }
+})

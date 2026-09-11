@@ -13,7 +13,7 @@ usePageSeo(`${makeup.name} | NKHS TENDA`, makeup.description, makeup.image)
 <template>
   <div class="container section">
     <NuxtLink class="text-link" to="/tata-rias">← Semua Tata Rias</NuxtLink>
-    <div class="detail-grid">
+    <div class="detail-grid makeup-detail">
       <MakeupGallery :images="makeup.gallery" :title="makeup.name" />
       <div>
         <p class="eyebrow">{{ makeup.category }}</p>
@@ -23,6 +23,12 @@ usePageSeo(`${makeup.name} | NKHS TENDA`, makeup.description, makeup.image)
           Mulai dari
           <UiPriceDisplay :value="makeup.price" />
         </p>
+        <h3 class="mt-6">Karakter rias</h3>
+        <ul class="makeup-highlights">
+          <li v-for="highlight in makeup.highlights" :key="highlight">
+            {{ highlight }}
+          </li>
+        </ul>
         <h3 class="mt-6">Yang termasuk</h3>
         <ul class="feature-list">
           <li v-for="item in makeup.included" :key="item">✓ {{ item }}</li>

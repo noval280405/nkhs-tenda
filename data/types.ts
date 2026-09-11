@@ -11,6 +11,8 @@ export interface TentModel {
   features: string[]
 }
 export interface MakeupModel {
+  summary: string
+  highlights: string[]
   id: number
   slug: string
   name: string

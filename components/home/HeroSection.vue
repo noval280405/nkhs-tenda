@@ -2,7 +2,9 @@
   <section class="hero">
     <img
       class="hero-image"
-      src="/images/hero/wedding.jpg"
+      src="/images/tents/classic-cream-wedding.jpg"
+      width="1536"
+      height="1024"
       alt="Ilustrasi tenda pernikahan dengan chandelier dan dekorasi elegan"
       fetchpriority="high"
     />
@@ -20,8 +22,8 @@
         <em>Sempurna.</em>
       </h1>
       <p class="hero-description">
-        Layanan tenda, dekorasi dan tata rias pernikahan untuk membantu
-        menciptakan momen istimewa sesuai kebutuhan Anda.
+        Tenda berbalut kain, pelaminan penuh bunga, dan tata rias yang personal.
+        Kami merangkai setiap detail untuk hari istimewa Anda.
       </p>
       <div class="button-row">
         <UiPrimaryButton to="/tenda">Lihat Model Tenda</UiPrimaryButton>
@@ -32,9 +34,9 @@
       </div>
       <div class="hero-foot">
         <span>DIRANCANG DENGAN HATI. DIKENANG SELAMANYA.</span>
-        <span>SCROLL TO EXPLORE ↓</span>
+        <span>TANGERANG & SEKITARNYA</span>
       </div>
     </div>
-    <span class="hero-caption">WEDDING INSPIRATION · FOTO ILUSTRASI</span>
+    <span class="hero-caption">INDONESIAN WEDDING · ILUSTRASI AI</span>
   </section>
 </template>

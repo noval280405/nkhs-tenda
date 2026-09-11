@@ -18,7 +18,7 @@
 
 - `npm run build`: **berhasil**, exit code 0.
 - `npm run typecheck`: **berhasil**, exit code 0, termasuk strict Vue templates.
-- `npm test`: **10 tes lulus** di Chromium.
+- `npm test`: **11 tes lulus** di Chromium.
 - 28 route valid diperiksa, beserta 3 slug invalid yang memberikan 404.
 - Rumus 100 m², 150 m², multi-area dengan model berbeda, seluruh kategori tambahan, dan sanitasi angka lulus.
 - Contoh PRD 150 m² beserta Garden Wedding, Soft Glam, 100 kursi, 10 meja, Warm Lighting, Jakarta Barat: **Rp22.050.000**.
@@ -31,7 +31,7 @@
 
 ## Placeholder
 
-Semua harga, model/fasilitas, warna yang ditawarkan, data project, testimoni, profil pengalaman, kontak, alamat dan jam operasional masih demo. Foto adalah ilustrasi Unsplash, bukan dokumentasi NKHS TENDA dan bukan contoh spesifik setiap gaya tata rias. Sumber gambar dicatat dalam `public/images/README.md`. Peta hanya menunjuk wilayah Tangerang. Ganti data tersebut sebelum publikasi sebagai website usaha sebenarnya.
+Semua harga, model/fasilitas, warna yang ditawarkan, data project, testimoni, profil pengalaman, kontak, alamat dan jam operasional masih demo. Koleksi aktif menggunakan 19 ilustrasi AI dengan visual berbeda untuk tiap model tenda, pelaminan, dan kategori tata rias Indonesia. Ilustrasi bukan dokumentasi NKHS TENDA. Sumber dan pemetaan gambar dicatat dalam `public/images/README.md`, sedangkan prompt final tercatat dalam `docs/image-prompts.json`. Peta hanya menunjuk wilayah Tangerang. Ganti data tersebut sebelum publikasi sebagai website usaha sebenarnya.
 
 ## File dibuat
 
@@ -145,3 +145,15 @@ Semua harga, model/fasilitas, warna yang ditawarkan, data project, testimoni, pr
 - `package-lock.json`
 - `package.json`
 - `tsconfig.json`
+
+
+## Pembaruan visual premium Indonesia
+
+- Mengganti seluruh gambar aktif dengan 6 ilustrasi tenda dekorasi, 6 pelaminan, dan 7 gaya rias Indonesia menggunakan built-in image_gen.
+- Memperbarui hero beranda, hero koleksi tenda/rias, bingkai gambar, kartu portrait, dan preview rias Sunda.
+- Menghubungkan gambar dan deskripsi setiap kategori rias dengan filter, dynamic detail, serta pilihan kalkulator; link kategori homepage dapat membuka filter tertentu.
+- Menambahkan karakter rias spesifik, tampilan portrait 2:3, dan menghilangkan thumbnail galeri satu gambar yang tidak diperlukan.
+- Project demo memakai gambar tenda, pelaminan, dan rias sesuai metadata masing-masing.
+- Harga dan rumus kalkulator tetap sama; gambar tenda diberi keterangan bahwa dekorasi/furniture tambahan dihitung terpisah.
+- `npm run build`, `npm run typecheck`, dan seluruh 11 tes browser/perhitungan berhasil.
+- Screenshot pemeriksaan: `tests/screenshots/premium-home-1440.png`, `premium-tenda-1440.png`, `premium-rias-1440.png`, dan versi 390 px.

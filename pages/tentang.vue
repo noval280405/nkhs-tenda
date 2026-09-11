@@ -11,7 +11,7 @@ usePageSeo('Tentang NKHS TENDA | Wedding Service Tangerang')
     <section class="container detail-grid section pt-0">
       <img
         class="detail-photo"
-        src="/images/tents/model-4.jpg"
+        src="/images/tents/traditional-wedding.jpg"
         alt="Ilustrasi suasana pernikahan"
         loading="lazy"
       />

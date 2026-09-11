@@ -13,11 +13,12 @@ usePageSeo('Model Tenda Pernikahan | NKHS TENDA')
 <template>
   <div>
     <TentHero />
-    <section class="container section pt-0">
+    <section id="koleksi-tenda" class="container section pt-0">
       <TentFilter v-model="filter" :options="options" />
       <TentGrid :tents="filtered" />
       <p class="image-note">
-        Foto ilustrasi · Model dan harga demo untuk referensi konsultasi.
+        Ilustrasi konsep AI · Harga tenda per m². Pelaminan, kursi, dan dekorasi
+        tambahan pada gambar dihitung terpisah sesuai pilihan Anda.
       </p>
       <section id="dekorasi" class="section">
         <UiSectionTitle

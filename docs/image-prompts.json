@@ -1,0 +1,97 @@
+[
+  {
+    "file": "public/images/tents/classic-cream-wedding.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Create a premium photorealistic architectural editorial photograph for an Indonesian wedding tent service website, landscape 1536x1024. A real Indonesian tenda dekorasi / tenda serut reception, NOT a hotel ballroom: fully draped pleated ivory fabric ceiling with graceful champagne fabric swags and several warm crystal chandeliers, fabric wrapped supporting poles, neat rows of gold Tiffany chairs along a carpeted central aisle leading to an Indonesian pelaminan stage with cream bridal sofa, layered ivory curved panels, abundant white orchids and blush flowers. Sophisticated cream champagne sage palette, tropical greenery at edges, soft warm ambient daylight, meticulously neat premium Indonesian home wedding marquee installation. Wide eye level view from entrance, stage visible toward right half with atmospheric darker softly draped left third suitable for headline overlay. No people, no text, no logo, no watermark. Show the fabric roof prominently. Original illustrative concept, not any existing vendor's photograph."
+  },
+  {
+    "file": "public/images/makeup/natural-bride.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Natural Indonesian bridal makeup: sheer fresh skin, natural pores, softly defined brows, very subtle brown eyeshadow, peach blush and rose lip tint. Loose elegant low updo, simple ivory kebaya, no crown. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/soft-glam-bride.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Soft glam Indonesian bridal makeup: luminous satin skin, softly blended champagne and rose-brown eyeshadow, fluttery lashes, peach-rose blush, glossy muted pink lips. Elegant low bun with a small pearl comb, ivory kebaya. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/modern-elegance.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Modern Indonesian bridal makeup: defined clean eyeliner, sculpted brows, luminous complexion, sophisticated warm bronze eyeshadow and nude lips. Sleek center-part low bun, architectural pearl earrings, minimalist modern white kebaya, no traditional crown. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/classic-beauty.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Classic timeless Indonesian bridal makeup: refined matte complexion, delicate winged eyeliner, deep rose-red lips, polished old-Hollywood side-part chignon, pearl earrings, ivory lace kebaya. No traditional forehead paint or crown. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/paes-jawa.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Traditional Javanese Solo Putri Indonesian bride, authentic visible black paes forehead makeup with the central rounded gajahan and smaller side motifs, black hair arranged in traditional low sanggul, delicate gold cunduk mentul ornaments on slender stems in bun, long jasmine roncean strands, black velvet kebaya with ornate gold embroidery. Warm refined bridal makeup. Clearly Javanese paes bridal styling, NOT a Sundanese siger crown, not a hijab. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/sunda-siger.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Traditional Sundanese Indonesian bride wearing a graceful recognizable silver Sundanese siger crown with upward curving leaflike points centered over forehead, traditional neat black hair bun, long jasmine ronce flowers beside both ears, white silver embroidered kebaya, fresh warm bridal makeup with soft pink lips. Bare clean forehead WITHOUT Javanese black paes paint. Authentic West Java bridal styling. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/makeup/hijab-bride.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic luxury bridal beauty editorial portrait for an Indonesian wedding service catalogue. Single adult Indonesian woman, shoulder-up composition with full head and all head ornaments comfortably visible, portrait 1024x1536. Indonesian Muslim hijab bride, elegantly wrapped ivory hijab fully covering all hair, ears and neck, delicate pearl edge and long veil, modest opaque long-sleeve white embroidered bridal gown, softly radiant makeup with mauve pink lips. No hair visible, no traditional regional crown, small refined pearl headpiece. Distinct individual face, gentle confident expression, natural skin texture, luxurious warm ivory studio background softly blurred, soft diffused window light, premium restrained beauty photography, realistic human anatomy. No text, logo, watermark, collage, frame, other people. An original illustrative concept, not an actual client portrait. The makeup and regional attire must be easy to distinguish at thumbnail size."
+  },
+  {
+    "file": "public/images/tents/modern-sage-wedding.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium architectural editorial photograph for an Indonesian wedding tent catalogue, landscape 1536x1024. Modern sage green and ivory tenda serut, sweeping sage fabric swags across pleated ivory fabric ceiling, crystal chandeliers, upholstered ivory and sage bridal sofa on pelaminan stage with curved minimalist panels and abundant white orchids, gold Tiffany chairs in ordered rows. Wide-angle eye-level view down central aisle from entrance, tent fabric ceiling occupies upper third and pelaminan stage clearly visible. Carefully curated polished installation at an Indonesian residential wedding reception, realistic details and tropical garden edges. No people, no text, logo or watermark. NOT a western hotel ballroom, NOT a table closeup. Show the canopy, aisle, seating and bridal stage together. Original illustrative concept."
+  },
+  {
+    "file": "public/images/tents/rustic-wedding-tent.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium architectural editorial photograph for an Indonesian wedding tent catalogue, landscape 1536x1024. Indonesian premium rustic tenda decoration: cream pleated fabric canopy, warm taupe swags, woven rattan pendant lamps and delicate chandeliers, wood crossback guest chairs in rows, cream aisle runner, wooden arch pelaminan stage with cream sofa, lush foliage and white flowers. An upscale tropical garden wedding under a fully draped tent. Wide-angle eye-level view down central aisle from entrance, tent fabric ceiling occupies upper third and pelaminan stage clearly visible. Carefully curated polished installation at an Indonesian residential wedding reception, realistic details and tropical garden edges. No people, no text, logo or watermark. NOT a western hotel ballroom, NOT a table closeup. Show the canopy, aisle, seating and bridal stage together. Original illustrative concept."
+  },
+  {
+    "file": "public/images/tents/royal-premium-wedding.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium architectural editorial photograph for an Indonesian wedding tent catalogue, landscape 1536x1024. Luxurious Indonesian royal champagne gold tenda dekorasi: dense ivory pleated fabric canopy and sculpted champagne fabric swags, grand crystal chandeliers, elegant gilded poles, reflective champagne aisle, gold Tiffany chairs in symmetric rows, opulent elevated gold and ivory pelaminan with carved gold bridal sofa and abundant white orchids. Warm luxurious lighting. Wide-angle eye-level view down central aisle from entrance, tent fabric ceiling occupies upper third and pelaminan stage clearly visible. Carefully curated polished installation at an Indonesian residential wedding reception, realistic details and tropical garden edges. No people, no text, logo or watermark. NOT a western hotel ballroom, NOT a table closeup. Show the canopy, aisle, seating and bridal stage together. Original illustrative concept."
+  },
+  {
+    "file": "public/images/tents/traditional-wedding.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium architectural editorial photograph for an Indonesian wedding tent catalogue, landscape 1536x1024. Premium Indonesian traditional Javanese wedding tenda: fully draped pleated ivory fabric ceiling with restrained maroon and gold fabric swags, warm chandeliers, guest chairs with cream fitted covers and gold sashes, beautiful carved dark teak Javanese gebyok pelaminan wall with gold highlights, ivory bridal sofa, jasmine floral decorations and banana leaf accents. Clearly tent installation not a ballroom. Wide-angle eye-level view down central aisle from entrance, tent fabric ceiling occupies upper third and pelaminan stage clearly visible. Carefully curated polished installation at an Indonesian residential wedding reception, realistic details and tropical garden edges. No people, no text, logo or watermark. NOT a western hotel ballroom, NOT a table closeup. Show the canopy, aisle, seating and bridal stage together. Original illustrative concept."
+  },
+  {
+    "file": "public/images/tents/minimalist-white-tent.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium architectural editorial photograph for an Indonesian wedding tent catalogue, landscape 1536x1024. Refined minimalist Indonesian wedding tenda: all-white pleated fabric roof, delicate symmetrical white swags, small warm crystal chandeliers, white-covered chairs in straight rows with aisle, minimalist white arched pelaminan stage with cream sofa and sparse artful white flower arrangements. Premium clean restrained decoration, soft natural light. Wide-angle eye-level view down central aisle from entrance, tent fabric ceiling occupies upper third and pelaminan stage clearly visible. Carefully curated polished installation at an Indonesian residential wedding reception, realistic details and tropical garden edges. No people, no text, logo or watermark. NOT a western hotel ballroom, NOT a table closeup. Show the canopy, aisle, seating and bridal stage together. Original illustrative concept."
+  },
+  {
+    "file": "public/images/decorations/modern.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Modern Minimalist Indonesian pelaminan with layered sculptural ivory arches, slender gold trim, elegant cream bridal sofa and two matching side chairs, white orchids and airy white floral arrangements. Sage and ivory draped tent overhead. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  },
+  {
+    "file": "public/images/decorations/garden.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Garden Wedding Indonesian pelaminan, lush green tropical foliage wall, white orchid cascades and hydrangeas, natural garden arched setting, ivory bridal sofa and matching side chairs, floral meadow along white stage, white and sage pleated tent ceiling. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  },
+  {
+    "file": "public/images/decorations/rustic.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Rustic Indonesian pelaminan, warm teak geometric arches and woven rattan accents, cream upholstered bridal sofa and side chairs, mixed white flowers and dried palm with green foliage, woven natural carpet, warm fairy lights below a cream draped tent. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  },
+  {
+    "file": "public/images/decorations/royal.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Royal Wedding Indonesian pelaminan, opulent intricate gold carved arch screens, champagne velvet bridal sofa and gold side chairs, thick white orchid cascades and roses framing a raised glossy ivory stage, hanging crystal chandeliers and champagne pleated tent canopy. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  },
+  {
+    "file": "public/images/decorations/jawa.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Traditional Javanese Indonesian pelaminan, authentic elaborately carved dark teak gebyok wooden backdrop with restrained gold highlights and joglo-inspired central lintel, cream bridal sofa and wooden side chairs, jasmine garlands, white flowers and leafy banana decorations, maroon and ivory draped tent roof. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  },
+  {
+    "file": "public/images/decorations/sunda.jpg",
+    "tool": "built-in image_gen",
+    "prompt": "Photorealistic premium Indonesian wedding decoration catalogue photograph, landscape 1536x1024. Traditional Sundanese Indonesian pelaminan, elegant pale bamboo and warm carved wooden backdrop inspired by West Java rumah adat with curved julang ngapak roof silhouette, ivory bridal sofa and matching side chairs, generous white jasmine garlands, white orchids and tropical foliage, cream draped fabric tent with warm hanging lamps. Front facing complete stage composition, entire bridal sofa and flanking chairs visible, some canopy fabric visible at top, beautifully lit editorial architectural photograph, sophisticated realistic proportions, rich tactile craft, warm inviting light. Focus on the pelaminan stage with no guest seating in foreground. No people, words, logos or watermark. Original illustrative concept, not a real vendor project."
+  }
+]

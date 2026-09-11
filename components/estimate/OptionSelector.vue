@@ -10,7 +10,7 @@ defineProps<{
 defineEmits<{ 'update:modelValue': [value: string] }>()
 </script>
 <template>
-  <div class="option-grid">
+  <div :class="['option-grid', { 'makeup-options': name === 'makeup' }]">
     <label :class="['option-card', { chosen: !modelValue }]">
       <input
         type="radio"

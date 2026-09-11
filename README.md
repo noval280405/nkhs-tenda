@@ -45,7 +45,7 @@ Basic lighting sudah termasuk model tenda. Lighting kalkulator adalah penambahan
 - `data/site.ts`: WhatsApp, Instagram, TikTok, email, alamat, jam operasional. Seluruh tautan kontak mengambil data dari sumber ini.
 - `data/tents.ts`, `makeups.ts`, `decorations.ts`, `furniture.ts`, `lighting.ts`, `transport.ts`, `packages.ts`: model, fasilitas, warna, dan semua harga masih demo.
 - `data/projects.ts`, `testimonials.ts`: seluruh project dan testimoni adalah contoh, bukan klaim pelanggan sebenarnya.
-- `public/images/`: gambar ilustrasi referensi lokal; sumber tercatat dalam `public/images/README.md`. Beberapa katalog memakai ulang gambar referensi. Foto tidak merepresentasikan tiap gaya tradisional secara spesifik.
+- `public/images/`: 19 ilustrasi AI bertema pernikahan Indonesia, dengan gambar berbeda untuk setiap model tenda, pelaminan, dan kategori rias. Sumber/pemetaan tercatat dalam `public/images/README.md`; prompt final ada di `docs/image-prompts.json`. Ilustrasi bukan dokumentasi pekerjaan asli.
 - Halaman tentang: pengalaman usaha dan profil tim menunggu informasi terverifikasi.
 - Kontak menampilkan wilayah Tangerang, bukan titik kantor sebenarnya. Google Fonts memerlukan jaringan, dengan font sistem sebagai fallback.
 
@@ -57,6 +57,6 @@ Basic lighting sudah termasuk model tenda. Lighting kalkulator adalah penambahan
 - `composables/`: state kalkulator dan metadata SEO.
 - `utils/`: sanitasi angka, format rupiah, perhitungan dan pesan WhatsApp.
 - `assets/css/main.css`: Tailwind dan gaya editorial responsif.
-- `tests/site.spec.ts`: 10 tes untuk rumus, route, SEO, 404, interaksi, quotation, dan enam viewport.
+- `tests/site.spec.ts`: 11 tes untuk rumus, route, SEO, 404, interaksi, quotation, dan enam viewport.
 
 Daftar file dan hasil pemeriksaan ada di `IMPLEMENTATION.md`.

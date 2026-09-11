@@ -1739,3 +1739,295 @@ textarea {
 .section.pt-0 {
   padding-top: 0;
 }
+
+/* Indonesian wedding editorial collection */
+.collection-hero {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: 70px;
+  padding-block: 64px 70px;
+}
+.collection-copy h1 {
+  font-size: clamp(46px, 5vw, 74px);
+  line-height: 1.02;
+  margin-block: 20px 26px;
+}
+.collection-copy > p:not(.eyebrow) {
+  max-width: 410px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.collection-copy > p.collection-description {
+  font-size: 12px;
+  margin-block: 18px 27px;
+}
+.collection-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 24px;
+}
+.collection-tent-image {
+  padding: 10px;
+  border: 1px solid #d9c8ae;
+  border-radius: 160px 160px 4px 4px;
+  background: #f1eade;
+}
+.collection-tent-image > img {
+  width: 100%;
+  height: 415px;
+  border-radius: 150px 150px 1px 1px;
+  object-position: center;
+}
+.collection-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 17px 12px 8px;
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: #84663f;
+}
+.collection-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  align-items: start;
+  padding-block: 8px 0;
+}
+.collection-portraits figure:first-child {
+  margin-top: 50px;
+}
+.collection-portraits img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 140px 140px 3px 3px;
+}
+.collection-portraits figcaption {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: #84663f;
+}
+.tent-card .card-image {
+  height: auto;
+  aspect-ratio: 3 / 2;
+}
+.tent-card .card-image img {
+  object-position: center;
+}
+.catalog-card {
+  border-radius: 8px;
+  box-shadow: 0 5px 20px #342b2604;
+}
+.catalog-card:hover {
+  box-shadow: 0 14px 38px #342b2610;
+}
+.catalog-card .image-badge {
+  background: #fffaf1ed;
+  border: 1px solid #f9f1e2;
+  border-radius: 2px;
+}
+.makeup-card .card-image.portrait {
+  height: auto;
+  aspect-ratio: 2 / 3;
+  background: #e9dfd0;
+}
+.makeup-card .portrait img {
+  width: 100%;
+  height: 100%;
+  object-position: center top;
+}
+.makeup-card .image-badge {
+  top: auto;
+  bottom: 18px;
+  left: 18px;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+}
+.makeup-card .makeup-summary {
+  font-size: 11px;
+  line-height: 1.9;
+  min-height: 42px;
+  margin-bottom: 16px;
+  color: #796b5b;
+}
+.makeup-detail {
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 70px;
+}
+.detail-photo.detail-portrait {
+  height: auto;
+  max-height: none;
+  aspect-ratio: 2 / 3;
+  object-fit: contain;
+  object-position: center top;
+  background: #eee4d7;
+}
+.makeup-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-block: 15px 28px;
+}
+.makeup-highlights li {
+  font-size: 10px;
+  padding: 7px 12px;
+  border: 1px solid #ddd0bc;
+  border-radius: 2px;
+  background: #f1eade;
+  color: #6d563b;
+}
+.makeup-category-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-block: 24px 30px;
+}
+.makeup-category-links a {
+  padding: 8px 13px;
+  border: 1px solid #cabba5;
+  border-radius: 2px;
+  font-size: 10px;
+  min-height: 38px;
+}
+.makeup-category-links a:hover {
+  background: #dfd2bf;
+}
+.makeup-preview {
+  border: 1px solid #e2d6c3;
+  border-radius: 170px 5px 5px 5px;
+  overflow: hidden;
+}
+.makeup-photo {
+  min-height: 650px;
+}
+.makeup-photo > img {
+  object-position: center top;
+}
+.makeup-copy .image-note {
+  font-size: 9px;
+  margin-top: 19px;
+  margin-bottom: 0;
+}
+.makeup-options .option-card img {
+  width: 62px;
+  height: 93px;
+  object-position: center top;
+}
+.hero-image {
+  object-position: center 53%;
+}
+.hero-shade {
+  background: linear-gradient(
+    90deg,
+    rgba(30, 26, 20, 0.78),
+    rgba(30, 26, 20, 0.48) 42%,
+    rgba(30, 26, 20, 0.07) 85%
+  );
+}
+.hero h1 {
+  text-shadow: 0 3px 18px #17171030;
+}
+.hero .eyebrow {
+  color: #ead6b6;
+}
+.hero h1 em {
+  color: #e0c298;
+}
+@media (max-width: 1023px) {
+  .collection-hero {
+    gap: 35px;
+    padding-block: 45px 55px;
+  }
+  .collection-copy h1 {
+    font-size: 50px;
+  }
+  .collection-tent-image > img {
+    height: 345px;
+  }
+  .collection-portraits {
+    gap: 12px;
+  }
+  .collection-portraits figcaption {
+    font-size: 6px;
+    letter-spacing: 1.3px;
+  }
+  .makeup-detail {
+    gap: 35px;
+  }
+  .makeup-photo {
+    min-height: 540px;
+  }
+}
+@media (max-width: 639px) {
+  .collection-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding-block: 35px 45px;
+  }
+  .collection-copy h1 {
+    font-size: 51px;
+    margin-block: 14px 19px;
+  }
+  .collection-copy > p:not(.eyebrow) {
+    font-size: 12px;
+  }
+  .collection-copy > p.collection-description {
+    font-size: 11px;
+    margin-block: 12px 20px;
+  }
+  .collection-tent-image {
+    border-radius: 105px 105px 4px 4px;
+    padding: 7px;
+  }
+  .collection-tent-image > img {
+    height: 280px;
+    border-radius: 98px 98px 2px 2px;
+  }
+  .collection-caption {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+    padding-inline: 6px;
+  }
+  .collection-portraits {
+    gap: 14px;
+  }
+  .collection-portraits figure:first-child {
+    margin-top: 25px;
+  }
+  .collection-portraits figcaption {
+    font-size: 7px;
+  }
+  .makeup-detail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 25px;
+  }
+  .makeup-preview {
+    border-radius: 130px 130px 4px 4px;
+  }
+  .makeup-photo {
+    min-height: 0;
+    aspect-ratio: 2 / 3;
+  }
+  .makeup-card .card-image.portrait {
+    aspect-ratio: 2 / 3;
+  }
+  .makeup-card .makeup-summary {
+    min-height: 0;
+  }
+  .hero-image {
+    object-position: 59% center;
+  }
+  .hero-shade {
+    background: linear-gradient(
+      90deg,
+      rgba(30, 26, 20, 0.78),
+      rgba(30, 26, 20, 0.3)
+    );
+  }
+}

@@ -22,6 +22,10 @@ usePageSeo(`${tent.name} | NKHS TENDA`, tent.description, tent.image)
         <p class="eyebrow">{{ tent.category }} COLLECTION</p>
         <h1>{{ tent.name }}</h1>
         <p>{{ tent.description }}</p>
+        <p class="image-note">
+          Gambar merupakan ilustrasi konsep AI. Pelaminan, kursi, bunga, dan
+          perlengkapan di foto tidak otomatis termasuk tarif tenda per m².
+        </p>
         <p class="mt-6">
           Mulai dari
           <UiPriceDisplay :value="tent.pricePerSquareMeter" unit="m²" />
